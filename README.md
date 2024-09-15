@@ -30,4 +30,34 @@ A simple Discord bot that integrates with Gemini AI to provide intelligent respo
    ```bash
    git clone https://github.com/yourusername/discord-ai-bot.git
    cd discord-ai-bot
-   
+   ```
+
+2. **Install Dependencies**
+
+   ```bash
+   dotnet restore
+   ```
+
+3. **Configure Your Bot**
+   - Update the Program.cs file with your Discord bot token and Gemini API key.
+   - Set your environment variables or directly input them into the code.
+
+   ```bash
+   private const string _DISCORD_API_KEY = "your_discord_bot_token";
+   private const string _AI_API_KEY = "your_gemini_api_key";
+   ```
+
+4. **Run the Bot**
+
+   ```bash
+   dotnet run
+   ```
+
+## Screenshot
+![DiscordBot](https://github.com/user-attachments/assets/cde2e9f2-5db0-4d46-acbd-41a3c2e49070)
+
+
+## Conclusion
+Creating the Discord-AI-Bot was a fantastic experience, especially since it was my first time working with AI and Discord development tools. Integrating Gemini AI with Discord.NET has been a great learning journey, showing how powerful these technologies can be when combined.
+
+I hope this bot helps you see the potential of using AI in Discord. Feel free to build on it and share your feedback!
