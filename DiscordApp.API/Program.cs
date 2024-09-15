@@ -25,7 +25,7 @@ public class MyProgram
         _httpClient.DefaultRequestHeaders.Add("x-goog-api-key", _AI_API_KEY);
 
         // Subscribing To Certain Events
-        _discordClient.Log += Log; ;
+        _discordClient.Log += Log;
         _discordClient.MessageReceived += MessageReceivedAsync;
 
         // Starting Discord Bot
