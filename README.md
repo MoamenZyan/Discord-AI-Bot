@@ -45,6 +45,7 @@ A simple Discord bot that integrates with Gemini AI to provide intelligent respo
    ```bash
    private const string _DISCORD_API_KEY = "your_discord_bot_token";
    private const string _AI_API_KEY = "your_gemini_api_key";
+   private static string _REQUEST_URL = "YOUR REST REQUEST URL";
    ```
 
 4. **Run the Bot**
