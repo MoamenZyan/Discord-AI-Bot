@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "yNPH2AYBWH3GSgmLGdgW4865trgHA5aRVZAAOfpTvOg=",
+  "Source": "DiscordApp.API",
+  "BasePath": "_content/DiscordApp.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
